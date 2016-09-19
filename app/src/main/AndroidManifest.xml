@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vijay.medpal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aplogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FIrstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUP" />
+        <activity android:name=".SignUP2" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Lop" />
+        <activity android:name=".p1" />
+        <activity android:name=".MedChange" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".PharSignIn" />
+        <activity android:name=".PharSignUp" />
+        <activity android:name=".PharDash" />
+        <activity android:name=".p2" />
+        <activity android:name=".MedChange1"/>
+        <activity android:name=".signup2"/>
+        <activity android:name=".Main3Activity"/>
+        <activity android:name=".navBarAct1"/>
+        <activity android:name=".skp1"/>
+        <activity android:name=".presm"/>
+        <activity android:name=".thy"/>
+        <activity android:name=".MainSkActivity"></activity>
+    </application>
+
+</manifest>

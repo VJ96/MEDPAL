@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bk"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vijay.medpal.p2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Name:"
+        android:id="@+id/textView39"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText25"
+        android:layout_alignBottom="@+id/textView39"
+        android:layout_toEndOf="@+id/textView39"
+        android:hint="Name"
+        android:ems="10"
+        android:editable="false"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Age:"
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText26"
+        android:editable="false"
+        android:layout_alignBottom="@+id/textView40"
+        android:layout_alignStart="@+id/editText25"
+        android:layout_alignEnd="@+id/editText25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sex:"
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText27"
+        android:layout_alignBottom="@+id/textView41"
+        android:layout_alignStart="@+id/editText26"
+        android:editable="false"
+        android:layout_alignEnd="@+id/editText26" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="T3:"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/editText27"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText28"
+        android:layout_alignBottom="@+id/textView42"
+        android:editable="false"
+        android:layout_toEndOf="@+id/textView40" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="T4:"
+        android:id="@+id/textView43"
+        android:layout_alignBottom="@+id/editText28"
+        android:layout_toEndOf="@+id/editText28" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText29"
+        android:layout_alignBottom="@+id/textView43"
+        android:editable="false"
+        android:layout_toEndOf="@+id/textView43" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TSH:"
+        android:id="@+id/textView44"
+        android:layout_alignBottom="@+id/editText29"
+        android:layout_toEndOf="@+id/editText29" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText30"
+        android:layout_alignBottom="@+id/textView44"
+        android:editable="false"
+        android:layout_toEndOf="@+id/textView44" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Prescribed Medicines:"
+        android:id="@+id/textView45"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1. Nitrocontin 50mg"
+        android:id="@+id/m3"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1 - 1 - 1"
+        android:id="@+id/textView47"
+        android:layout_alignBottom="@+id/m3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2. Eltroxin 25mg"
+        android:id="@+id/m4"
+        android:layout_below="@+id/m3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1 - 0 - 0"
+        android:id="@+id/textView49"
+        android:layout_alignBottom="@+id/m4"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
